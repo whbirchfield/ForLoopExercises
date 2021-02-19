@@ -17,7 +17,6 @@ for(i= 12; i>-15; i= i-2){
 }
 
 for(i= 50; i>20; i= i-1){
-  console.log(i)
   let j = i%3;
   if (j = 0){
     console.log(i);
