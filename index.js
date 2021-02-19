@@ -4,7 +4,7 @@
     c. Print the EVEN numbers 12 to -14 in descending order, one number per line.
     d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
 
-    for (i = 0; i<21; i++){
+for (i = 0; i<21; i++){
       console.log(i);
     }
 
@@ -19,6 +19,14 @@ for (i = 0; i<21; i++){
 for(i= 12; i>-15; i= i-2){
   console.log(i)
 }
+
+for(i= 50; i>20; i= i-1){
+  console.log(i)
+  let j = i%3;
+  if (j = 0){
+    console.log(i);
+  }
+    }
 
 
 
