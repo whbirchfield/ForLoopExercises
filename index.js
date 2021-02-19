@@ -7,18 +7,21 @@
 for (i = 0; i<21; i++){
       console.log(i);
     }
+console.log("\n");
 
 for (i = 3; i<30; i= i+ 2){
       console.log(i);
     }
+console.log("\n");
 
 for(i= 12; i>-15; i= i-2){
   console.log(i)
 }
+console.log("\n");
 
 for(i= 50; i>20; i= i-1){
   let j = Number(i%3);
-  if (j = 0){
+  if (j === 0){
     console.log(i);
   }
     }
